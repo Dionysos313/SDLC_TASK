@@ -1,6 +1,7 @@
 import { Task } from "./types";
 
 const API_BASE = import.meta.env.VITE_API_BASE ?? "http://localhost:8080/api/tasks";
+console.log("DEBUG: API_BASE =", API_BASE); // debug: will appear in the browser console
 
 async function handleResponse(res: Response) {
   if (!res.ok) {
