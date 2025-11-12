@@ -131,8 +131,7 @@
               "RelativeToolTip": "env .env",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-11-12T21:15:20.585Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-12T21:15:20.585Z"
             },
             {
               "$type": "Document",
@@ -144,8 +143,7 @@
               "RelativeToolTip": "vercel.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-12T21:01:23.752Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-12T21:01:23.752Z"
             },
             {
               "$type": "Document",
@@ -157,8 +155,7 @@
               "RelativeToolTip": "package.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-10T22:03:35.36Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-10T22:03:35.36Z"
             },
             {
               "$type": "Document",
@@ -170,8 +167,7 @@
               "RelativeToolTip": "vite.config.ts",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-11-10T22:03:38.285Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-10T22:03:38.285Z"
             },
             {
               "$type": "Document",
@@ -183,8 +179,7 @@
               "RelativeToolTip": "index.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-11-10T22:03:43.834Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-10T22:03:43.834Z"
             },
             {
               "$type": "Document",
@@ -196,8 +191,7 @@
               "RelativeToolTip": "src\\main.tsx",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-11-10T22:03:45.805Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-10T22:03:45.805Z"
             },
             {
               "$type": "Document",
@@ -209,8 +203,7 @@
               "RelativeToolTip": "src\\types.ts",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-11-10T22:03:48.689Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-10T22:03:48.689Z"
             },
             {
               "$type": "Document",
@@ -222,8 +215,7 @@
               "RelativeToolTip": "src\\api.ts",
               "ViewState": "AgIAABoAAAAAAAAAAAAAwCQAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-11-10T22:03:50.272Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-10T22:03:50.272Z"
             },
             {
               "$type": "Document",
@@ -235,8 +227,7 @@
               "RelativeToolTip": "src\\main\\java\\com\\example\\taskmanager\\config\\CorsConfig.java",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-11-12T21:36:37.194Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-12T21:36:37.194Z"
             },
             {
               "$type": "Document",
@@ -248,8 +239,7 @@
               "RelativeToolTip": "src\\components\\TaskForm.tsx",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-11-10T22:03:55.486Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-10T22:03:55.486Z"
             },
             {
               "$type": "Document",
@@ -261,8 +251,7 @@
               "RelativeToolTip": "src\\components\\TaskList.tsx",
               "ViewState": "AgIAAJ0AAAAAAAAAAAAAAKkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-11-10T22:03:59.367Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-10T22:03:59.367Z"
             },
             {
               "$type": "Document",
@@ -274,8 +263,7 @@
               "RelativeToolTip": "src\\App.tsx",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-11-10T22:04:03.942Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-10T22:04:03.942Z"
             },
             {
               "$type": "Document",
@@ -287,8 +275,7 @@
               "RelativeToolTip": "src\\main\\java\\com\\example\\taskmanager\\controller\\TaskController.java",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-11-10T22:03:21.531Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-10T22:03:21.531Z"
             },
             {
               "$type": "Document",
@@ -300,8 +287,7 @@
               "RelativeToolTip": "tsconfig.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-10T22:03:41.137Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-10T22:03:41.137Z"
             },
             {
               "$type": "Document",
@@ -313,8 +299,7 @@
               "RelativeToolTip": "src\\styles.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-11-10T22:04:07.547Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-10T22:04:07.547Z"
             },
             {
               "$type": "Document",
@@ -326,8 +311,7 @@
               "RelativeToolTip": "pom.xml",
               "ViewState": "AgIAABEAAAAAAAAAAAAiwCAAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2025-11-10T22:02:54.838Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-10T22:02:54.838Z"
             },
             {
               "$type": "Document",
@@ -339,8 +323,7 @@
               "RelativeToolTip": "properties src\\main\\resources\\application.properties",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-11-10T22:03:33.363Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-10T22:03:33.363Z"
             },
             {
               "$type": "Document",
@@ -352,8 +335,7 @@
               "RelativeToolTip": "src\\main\\java\\com\\example\\taskmanager\\controller\\GlobalExceptionHandler.java",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-11-10T22:03:29.322Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-10T22:03:29.322Z"
             },
             {
               "$type": "Document",
@@ -365,8 +347,7 @@
               "RelativeToolTip": "src\\main\\java\\com\\example\\taskmanager\\repository\\TaskRepository.java",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-11-10T22:03:19.224Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-10T22:03:19.224Z"
             },
             {
               "$type": "Document",
@@ -378,8 +359,7 @@
               "RelativeToolTip": "src\\main\\java\\com\\example\\taskmanager\\model\\TaskStatus.java",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-11-10T22:03:11.039Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-10T22:03:11.039Z"
             },
             {
               "$type": "Document",
@@ -391,8 +371,7 @@
               "RelativeToolTip": "src\\main\\java\\com\\example\\taskmanager\\TaskManagerApplication.java",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-11-10T22:03:04.726Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-10T22:03:04.726Z"
             },
             {
               "$type": "Document",
@@ -404,8 +383,7 @@
               "RelativeToolTip": "src\\main\\java\\com\\example\\taskmanager\\model\\Task.java",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-11-12T20:21:54.584Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-12T20:21:54.584Z"
             }
           ]
         },
@@ -415,19 +393,19 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:4:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:5:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:5:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
               "$type": "Bookmark",
