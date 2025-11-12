@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: taskmanager-backend
+    env: docker
+    repo: https://github.com/Dionysos313/SDLC_TASK
+    branch: main
+    dockerfilePath: Dockerfile
+    envVars:
+      - key: APP_CORS_ALLOWED_ORIGINS
+        value: "https://test3-qv72knmh1-dennis-schocks-projects.vercel.app,https://neat-seas-wonder.loca.lt,http://localhost:5173,http://localhost:5174"
