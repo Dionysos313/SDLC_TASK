@@ -1,0 +1,22 @@
+:root {
+  --bg: #f6f8fa;
+  --card: #fff;
+  --accent: #0366d6;
+  --danger: #d32f2f;
+}
+
+body { font-family: Inter, system-ui, Arial; background: var(--bg); margin: 0; padding: 20px; }
+.container { max-width: 900px; margin: 0 auto; }
+.header { display:flex; justify-content:space-between; align-items:center; margin-bottom: 12px; }
+.card { background: var(--card); padding: 12px; border-radius: 6px; margin-bottom: 12px; box-shadow: 0 1px 3px rgba(0,0,0,.06); }
+.form-row { margin-bottom: 8px; display:flex; flex-direction:column; }
+.form-row label { font-weight:600; margin-bottom:4px; }
+.form-row input, .form-row textarea, .form-row select { padding:8px; border:1px solid #ddd; border-radius:4px; }
+.form-actions { display:flex; gap:8px; justify-content:flex-end; }
+button { background: var(--accent); color: white; padding:6px 10px; border:none; border-radius:4px; cursor:pointer; }
+button.secondary { background: #6c757d; }
+button.danger { background: var(--danger); }
+.error { color: var(--danger); margin-top:6px; }
+.tasks { width:100%; border-collapse: collapse; background: var(--card); }
+.tasks th, .tasks td { padding:8px 10px; border-bottom: 1px solid #eee; text-align:left; }
+.tasks select { padding:4px; }

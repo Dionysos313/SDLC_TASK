@@ -1,0 +1,20 @@
+# Maven / Java
+/target
+*.class
+*.jar
+*.war
+*.ear
+
+# Node / frontend
+/node_modules
+/dist
+/.vite
+
+# IDEs
+/.idea
+/.vscode
+*.iml
+
+# OS & env
+.DS_Store
+.env
