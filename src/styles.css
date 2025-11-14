@@ -5,7 +5,17 @@
   --danger: #d32f2f;
 }
 
-body { font-family: Inter, system-ui, Arial; background: var(--bg); margin: 0; padding: 20px; }
+/* Form card tweaks */
+.card.small { max-width: 720px; margin: 0 auto 12px auto; }
+
+/* Tiny utility */
+.kv { color: var(--muted); font-size: 0.92rem; }
+
+/* Accessible focus */
+:focus { outline: 3px solid rgba(62,166,255,0.12); outline-offset: 2px; }
+
+/* Transitions */
+* { transition: color .12s, background .12s, border-color .12s; }body { font-family: Inter, system-ui, Arial; background: var(--bg); margin: 0; padding: 20px; }
 .container { max-width: 900px; margin: 0 auto; }
 .header { display:flex; justify-content:space-between; align-items:center; margin-bottom: 12px; }
 .card { background: var(--card); padding: 12px; border-radius: 6px; margin-bottom: 12px; box-shadow: 0 1px 3px rgba(0,0,0,.06); }
