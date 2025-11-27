@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Task, TaskStatus } from "../types";
+import { api, ApiException } from '../api';
 
 type Props = {
   initial?: Task;
@@ -36,6 +37,23 @@ export default function TaskForm({ initial, onSave, onCancel }: Props) {
         dueDate: dueDate || undefined,
         status,
       });
+    } catch (error) {
+      if (error instanceof ApiException) {
+        // Handle validation errors
+        const validationErrors = error.getValidationErrors();
+        if (validationErrors) {
+          // Show field-specific errors
+          Object.entries(validationErrors).forEach(([field, message]) => {
+            console.error(`${field}: ${message}`);
+          });
+        } else {
+          // Show general error message
+          alert(error.message); // User-friendly message from backend
+        }
+      } else {
+        // Handle network errors
+        alert("Network error. Please check your connection.");
+      }
     } finally {
       setLoading(false);
     }

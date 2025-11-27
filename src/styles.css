@@ -30,3 +30,7 @@ button.danger { background: var(--danger); }
 .tasks { width:100%; border-collapse: collapse; background: var(--card); }
 .tasks th, .tasks td { padding:8px 10px; border-bottom: 1px solid #eee; text-align:left; }
 .tasks select { padding:4px; }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

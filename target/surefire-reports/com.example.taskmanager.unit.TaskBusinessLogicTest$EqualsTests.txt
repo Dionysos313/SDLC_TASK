@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.example.taskmanager.unit.TaskBusinessLogicTest$EqualsTests
 -------------------------------------------------------------------------------
-Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s -- in com.example.taskmanager.unit.TaskBusinessLogicTest$EqualsTests
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.052 s -- in com.example.taskmanager.unit.TaskBusinessLogicTest$EqualsTests

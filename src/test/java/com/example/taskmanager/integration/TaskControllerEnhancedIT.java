@@ -9,7 +9,10 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.web.client.TestRestTemplate;
+import org.springframework.boot.test.web.server.LocalServerPort;
 import org.springframework.http.*;
+import org.springframework.http.client.HttpComponentsClientHttpRequestFactory;
+import org.springframework.web.client.RestTemplate;
 
 import java.time.LocalDate;
 
@@ -24,9 +27,18 @@ class TaskControllerEnhancedIT {
     @Autowired
     private TaskRepository repository;
 
+    @LocalServerPort
+    private int port;
+
+    private RestTemplate patchRestTemplate;
+
     @BeforeEach
     void setUp() {
         repository.deleteAll();
+        
+        // Create a RestTemplate that supports PATCH
+        patchRestTemplate = new RestTemplate();
+        patchRestTemplate.setRequestFactory(new HttpComponentsClientHttpRequestFactory());
     }
 
     @Test
@@ -113,8 +125,11 @@ class TaskControllerEnhancedIT {
         task.setStatus(TaskStatus.TODO);
         task = repository.save(task);
 
-        ResponseEntity<Task> response = rest.exchange(
-            "/api/tasks/" + task.getId() + "/status?status=IN_PROGRESS",
+        // Use patchRestTemplate that supports PATCH
+        String url = "http://localhost:" + port + "/api/tasks/" + task.getId() + "/status?status=IN_PROGRESS";
+        
+        ResponseEntity<Task> response = patchRestTemplate.exchange(
+            url,
             HttpMethod.PATCH,
             null,
             Task.class
@@ -123,6 +138,10 @@ class TaskControllerEnhancedIT {
         assertEquals(HttpStatus.OK, response.getStatusCode());
         assertNotNull(response.getBody());
         assertEquals(TaskStatus.IN_PROGRESS, response.getBody().getStatus());
+        
+        // Verify in database
+        Task updated = repository.findById(task.getId()).orElseThrow();
+        assertEquals(TaskStatus.IN_PROGRESS, updated.getStatus());
     }
 
     @Test

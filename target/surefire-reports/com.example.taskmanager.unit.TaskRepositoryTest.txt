@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.example.taskmanager.unit.TaskRepositoryTest
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.831 s -- in com.example.taskmanager.unit.TaskRepositoryTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.579 s -- in com.example.taskmanager.unit.TaskRepositoryTest

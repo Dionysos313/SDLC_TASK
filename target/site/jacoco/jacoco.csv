@@ -2,7 +2,7 @@ GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_
 Task Manager,com.example.taskmanager.dto,TaskMapper,0,55,0,4,0,20,0,5,0,3
 Task Manager,com.example.taskmanager.dto,TaskResponseDTO,52,0,0,0,15,0,15,0,15,0
 Task Manager,com.example.taskmanager.dto,TaskDTO,0,76,0,0,0,24,0,16,0,16
-Task Manager,com.example.taskmanager.model,Task,7,168,3,21,3,44,4,31,1,22
+Task Manager,com.example.taskmanager.model,Task,3,172,3,21,1,46,3,32,0,23
 Task Manager,com.example.taskmanager.model,TaskStatus,0,21,0,0,0,4,0,1,0,1
 Task Manager,com.example.taskmanager.config,CorsConfig,0,126,1,9,0,22,1,10,0,6
 Task Manager,com.example.taskmanager.service,TaskService,0,147,2,8,0,37,2,14,0,11

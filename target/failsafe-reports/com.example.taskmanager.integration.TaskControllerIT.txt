@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.example.taskmanager.integration.TaskControllerIT
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.643 s -- in com.example.taskmanager.integration.TaskControllerIT
