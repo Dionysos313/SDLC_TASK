@@ -44,25 +44,25 @@ export default function TaskForm({ initial, onSave, onCancel }: Props) {
   return (
     <form className="card" onSubmit={submit}>
       <div className="form-row">
-        <label>Title *</label>
-        <input value={title} onChange={e => setTitle(e.target.value)} maxLength={100} />
+        <label htmlFor="task-title">Title *</label>
+        <input id="task-title" value={title} onChange={e => setTitle(e.target.value)} maxLength={100} />
         {errors.title && <div className="error">{errors.title}</div>}
       </div>
 
       <div className="form-row">
-        <label>Description</label>
-        <textarea value={description} onChange={e => setDescription(e.target.value)} maxLength={500} />
+        <label htmlFor="task-description">Description</label>
+        <textarea id="task-description" value={description} onChange={e => setDescription(e.target.value)} maxLength={500} />
         {errors.description && <div className="error">{errors.description}</div>}
       </div>
 
       <div className="form-row">
-        <label>Due Date</label>
-        <input type="date" value={dueDate ?? ""} onChange={e => setDueDate(e.target.value)} />
+        <label htmlFor="task-due-date">Due Date</label>
+        <input id="task-due-date" type="date" value={dueDate ?? ""} onChange={e => setDueDate(e.target.value)} />
       </div>
 
       <div className="form-row">
-        <label>Status</label>
-        <select value={status} onChange={e => setStatus(e.target.value as TaskStatus)}>
+        <label htmlFor="task-status">Status</label>
+        <select id="task-status" value={status} onChange={e => setStatus(e.target.value as TaskStatus)}>
           <option value="TODO">TODO</option>
           <option value="IN_PROGRESS">IN_PROGRESS</option>
           <option value="DONE">DONE</option>

@@ -1,6 +1,13 @@
 com\example\taskmanager\controller\TaskController.class
-com\example\taskmanager\model\Task.class
+com\example\taskmanager\exception\ErrorResponse.class
+com\example\taskmanager\dto\TaskMapper.class
 com\example\taskmanager\model\TaskStatus.class
+com\example\taskmanager\model\Task.class
 com\example\taskmanager\TaskManagerApplication.class
+com\example\taskmanager\dto\TaskDTO.class
+com\example\taskmanager\exception\ResourceNotFoundException.class
 com\example\taskmanager\controller\GlobalExceptionHandler.class
+com\example\taskmanager\config\CorsConfig.class
+com\example\taskmanager\dto\TaskResponseDTO.class
+com\example\taskmanager\service\TaskService.class
 com\example\taskmanager\repository\TaskRepository.class

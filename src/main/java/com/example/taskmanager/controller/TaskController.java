@@ -1,63 +1,85 @@
 package com.example.taskmanager.controller;
 
 import com.example.taskmanager.model.Task;
-import com.example.taskmanager.repository.TaskRepository;
+import com.example.taskmanager.model.TaskStatus;
+import com.example.taskmanager.service.TaskService;
 import jakarta.validation.Valid;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.server.ResponseStatusException;
 
 import java.util.List;
-import java.util.Optional;
 
-@CrossOrigin(origins = {"http://localhost:5173","http://localhost:5174","https://your-vercel-project.vercel.app","https://neat-seas-wonder.loca.lt"})
+/**
+ * REST controller for Task operations.
+ * Handles HTTP requests and delegates business logic to TaskService.
+ */
 @RestController
 @RequestMapping("/api/tasks")
 public class TaskController {
 
-  private final TaskRepository repo;
+    private static final Logger log = LoggerFactory.getLogger(TaskController.class);
+    private final TaskService taskService;
 
-  public TaskController(TaskRepository repo) {
-    this.repo = repo;
-  }
+    public TaskController(TaskService taskService) {
+        this.taskService = taskService;
+    }
 
-  @GetMapping
-  public List<Task> getAll() {
-    return repo.findAll();
-  }
+    @GetMapping
+    public ResponseEntity<List<Task>> getAllTasks(
+            @RequestParam(required = false) TaskStatus status) {
+        log.info("GET /api/tasks - status filter: {}", status);
+        
+        List<Task> tasks = status != null 
+            ? taskService.getTasksByStatus(status)
+            : taskService.getAllTasks();
+            
+        return ResponseEntity.ok(tasks);
+    }
 
-  @GetMapping("{id}")
-  public ResponseEntity<Task> getById(@PathVariable Long id) {
-    Optional<Task> opt = repo.findById(id);
-    return opt.map(ResponseEntity::ok)
-              .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Task not found"));
-  }
+    @GetMapping("{id}")
+    public ResponseEntity<Task> getById(@PathVariable Long id) {
+        log.info("GET /api/tasks/{}", id);
+        Task task = taskService.getTaskById(id);
+        return ResponseEntity.ok(task);
+    }
 
-  @PostMapping
-  public ResponseEntity<Task> create(@Valid @RequestBody Task task) {
-    task.setId(null);
-    Task saved = repo.save(task);
-    return new ResponseEntity<>(saved, HttpStatus.CREATED);
-  }
+    @GetMapping("/overdue")
+    public ResponseEntity<List<Task>> getOverdueTasks() {
+        log.info("GET /api/tasks/overdue");
+        List<Task> tasks = taskService.getOverdueTasks();
+        return ResponseEntity.ok(tasks);
+    }
 
-  @PutMapping("{id}")
-  public ResponseEntity<Task> update(@PathVariable Long id, @Valid @RequestBody Task task) {
-    return repo.findById(id).map(existing -> {
-      existing.setTitle(task.getTitle());
-      existing.setDescription(task.getDescription());
-      existing.setStatus(task.getStatus());
-      existing.setDueDate(task.getDueDate());
-      Task saved = repo.save(existing);
-      return ResponseEntity.ok(saved);
-    }).orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Task not found"));
-  }
+    @PostMapping
+    public ResponseEntity<Task> create(@Valid @RequestBody Task task) {
+        log.info("POST /api/tasks - title: {}", task.getTitle());
+        Task created = taskService.createTask(task);
+        return new ResponseEntity<>(created, HttpStatus.CREATED);
+    }
 
-  @DeleteMapping("{id}")
-  public ResponseEntity<Void> delete(@PathVariable Long id) {
-    return repo.findById(id).map(t -> {
-      repo.delete(t);
-      return new ResponseEntity<Void>(HttpStatus.NO_CONTENT);
-    }).orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Task not found"));
-  }
+    @PutMapping("{id}")
+    public ResponseEntity<Task> update(@PathVariable Long id, @Valid @RequestBody Task task) {
+        log.info("PUT /api/tasks/{}", id);
+        Task updated = taskService.updateTask(id, task);
+        return ResponseEntity.ok(updated);
+    }
+
+    @PatchMapping("/{id}/status")
+    public ResponseEntity<Task> updateTaskStatus(
+            @PathVariable Long id,
+            @RequestParam TaskStatus status) {
+        log.info("PATCH /api/tasks/{}/status - new status: {}", id, status);
+        Task updated = taskService.updateTaskStatus(id, status);
+        return ResponseEntity.ok(updated);
+    }
+
+    @DeleteMapping("{id}")
+    public ResponseEntity<Void> delete(@PathVariable Long id) {
+        log.info("DELETE /api/tasks/{}", id);
+        taskService.deleteTask(id);
+        return ResponseEntity.noContent().build();
+    }
 }

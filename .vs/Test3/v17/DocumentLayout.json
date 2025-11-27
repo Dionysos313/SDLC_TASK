@@ -3,16 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\dennis.schock\\source\\repos\\Test3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dennis.schock\\source\\repos\\Test3\\gitignore .gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:gitignore .gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dennis.schock\\source\\repos\\Test3\\src\\styles.css||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\styles.css||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dennis.schock\\source\\repos\\Test3\\package.json||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:package.json||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dennis.schock\\source\\repos\\Test3\\render.yaml||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:render.yaml||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dennis.schock\\source\\repos\\Test3\\src\\main\\java\\com\\example\\taskmanager\\config\\CorsConfig.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\main\\java\\com\\example\\taskmanager\\config\\CorsConfig.java||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dennis.schock\\source\\repos\\Test3\\vite.config.ts||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:vite.config.ts||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dennis.schock\\source\\repos\\Test3\\vercel.json||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:vercel.json||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dennis.schock\\source\\repos\\Test3\\env .env||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:env .env||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dennis.schock\\source\\repos\\Test3\\src\\api.ts||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\api.ts||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dennis.schock\\source\\repos\\Test3\\index.html||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dennis.schock\\source\\repos\\Test3\\src\\types.ts||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\types.ts||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dennis.schock\\source\\repos\\Test3\\gitignore .gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:gitignore .gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dennis.schock\\source\\repos\\Test3\\src\\main\\java\\com\\example\\taskmanager\\controller\\TaskController.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
@@ -23,32 +55,12 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\TaskList.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dennis.schock\\source\\repos\\Test3\\src\\api.ts||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\api.ts||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dennis.schock\\source\\repos\\Test3\\vercel.json||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:vercel.json||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dennis.schock\\source\\repos\\Test3\\package.json||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:package.json||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dennis.schock\\source\\repos\\Test3\\src\\main.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\main.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dennis.schock\\source\\repos\\Test3\\vite.config.ts||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:vite.config.ts||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dennis.schock\\source\\repos\\Test3\\pom.xml||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pom.xml||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dennis.schock\\source\\repos\\Test3\\src\\styles.css||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\styles.css||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dennis.schock\\source\\repos\\Test3\\src\\App.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}",
@@ -57,14 +69,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dennis.schock\\source\\repos\\Test3\\src\\components\\TaskForm.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\TaskForm.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dennis.schock\\source\\repos\\Test3\\src\\types.ts||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\types.ts||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dennis.schock\\source\\repos\\Test3\\index.html||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dennis.schock\\source\\repos\\Test3\\tsconfig.json||{3B902123-F8A7-4915-9F01-361F908088D0}",
@@ -102,7 +106,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -110,56 +114,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "gitignore .gitignore",
-              "DocumentMoniker": "C:\\Users\\dennis.schock\\source\\repos\\Test3\\gitignore .gitignore",
-              "RelativeDocumentMoniker": "gitignore .gitignore",
-              "ToolTip": "C:\\Users\\dennis.schock\\source\\repos\\Test3\\gitignore .gitignore",
-              "RelativeToolTip": "gitignore .gitignore",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-11-12T21:39:42.497Z",
+              "DocumentIndex": 2,
+              "Title": "render.yaml",
+              "DocumentMoniker": "C:\\Users\\dennis.schock\\source\\repos\\Test3\\render.yaml",
+              "RelativeDocumentMoniker": "render.yaml",
+              "ToolTip": "C:\\Users\\dennis.schock\\source\\repos\\Test3\\render.yaml",
+              "RelativeToolTip": "render.yaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-11-14T10:56:33.144Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "env .env",
               "DocumentMoniker": "C:\\Users\\dennis.schock\\source\\repos\\Test3\\env .env",
               "RelativeDocumentMoniker": "env .env",
               "ToolTip": "C:\\Users\\dennis.schock\\source\\repos\\Test3\\env .env",
               "RelativeToolTip": "env .env",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-11-12T21:15:20.585Z"
+              "WhenOpened": "2025-11-12T21:15:20.585Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "vercel.json",
               "DocumentMoniker": "C:\\Users\\dennis.schock\\source\\repos\\Test3\\vercel.json",
               "RelativeDocumentMoniker": "vercel.json",
               "ToolTip": "C:\\Users\\dennis.schock\\source\\repos\\Test3\\vercel.json",
               "RelativeToolTip": "vercel.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-12T21:01:23.752Z"
+              "WhenOpened": "2025-11-12T21:01:23.752Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "package.json",
               "DocumentMoniker": "C:\\Users\\dennis.schock\\source\\repos\\Test3\\package.json",
               "RelativeDocumentMoniker": "package.json",
               "ToolTip": "C:\\Users\\dennis.schock\\source\\repos\\Test3\\package.json",
               "RelativeToolTip": "package.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-10T22:03:35.36Z"
+              "WhenOpened": "2025-11-10T22:03:35.36Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
               "Title": "vite.config.ts",
               "DocumentMoniker": "C:\\Users\\dennis.schock\\source\\repos\\Test3\\vite.config.ts",
               "RelativeDocumentMoniker": "vite.config.ts",
@@ -167,11 +174,12 @@
               "RelativeToolTip": "vite.config.ts",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-11-10T22:03:38.285Z"
+              "WhenOpened": "2025-11-10T22:03:38.285Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 8,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\dennis.schock\\source\\repos\\Test3\\index.html",
               "RelativeDocumentMoniker": "index.html",
@@ -183,7 +191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "main.tsx",
               "DocumentMoniker": "C:\\Users\\dennis.schock\\source\\repos\\Test3\\src\\main.tsx",
               "RelativeDocumentMoniker": "src\\main.tsx",
@@ -195,7 +203,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 9,
               "Title": "types.ts",
               "DocumentMoniker": "C:\\Users\\dennis.schock\\source\\repos\\Test3\\src\\types.ts",
               "RelativeDocumentMoniker": "src\\types.ts",
@@ -207,31 +215,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "api.ts",
               "DocumentMoniker": "C:\\Users\\dennis.schock\\source\\repos\\Test3\\src\\api.ts",
               "RelativeDocumentMoniker": "src\\api.ts",
               "ToolTip": "C:\\Users\\dennis.schock\\source\\repos\\Test3\\src\\api.ts",
               "RelativeToolTip": "src\\api.ts",
-              "ViewState": "AgIAABoAAAAAAAAAAAAAwCQAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
               "WhenOpened": "2025-11-10T22:03:50.272Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "CorsConfig.java",
               "DocumentMoniker": "C:\\Users\\dennis.schock\\source\\repos\\Test3\\src\\main\\java\\com\\example\\taskmanager\\config\\CorsConfig.java",
               "RelativeDocumentMoniker": "src\\main\\java\\com\\example\\taskmanager\\config\\CorsConfig.java",
               "ToolTip": "C:\\Users\\dennis.schock\\source\\repos\\Test3\\src\\main\\java\\com\\example\\taskmanager\\config\\CorsConfig.java",
               "RelativeToolTip": "src\\main\\java\\com\\example\\taskmanager\\config\\CorsConfig.java",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-11-12T21:36:37.194Z"
+              "WhenOpened": "2025-11-12T21:36:37.194Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "TaskForm.tsx",
               "DocumentMoniker": "C:\\Users\\dennis.schock\\source\\repos\\Test3\\src\\components\\TaskForm.tsx",
               "RelativeDocumentMoniker": "src\\components\\TaskForm.tsx",
@@ -243,7 +252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "TaskList.tsx",
               "DocumentMoniker": "C:\\Users\\dennis.schock\\source\\repos\\Test3\\src\\components\\TaskList.tsx",
               "RelativeDocumentMoniker": "src\\components\\TaskList.tsx",
@@ -255,7 +264,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "App.tsx",
               "DocumentMoniker": "C:\\Users\\dennis.schock\\source\\repos\\Test3\\src\\App.tsx",
               "RelativeDocumentMoniker": "src\\App.tsx",
@@ -267,7 +276,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "styles.css",
+              "DocumentMoniker": "C:\\Users\\dennis.schock\\source\\repos\\Test3\\src\\styles.css",
+              "RelativeDocumentMoniker": "src\\styles.css",
+              "ToolTip": "C:\\Users\\dennis.schock\\source\\repos\\Test3\\src\\styles.css",
+              "RelativeToolTip": "src\\styles.css",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAkwBEAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-10T22:04:07.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "gitignore .gitignore",
+              "DocumentMoniker": "C:\\Users\\dennis.schock\\source\\repos\\Test3\\gitignore .gitignore",
+              "RelativeDocumentMoniker": "gitignore .gitignore",
+              "ToolTip": "C:\\Users\\dennis.schock\\source\\repos\\Test3\\gitignore .gitignore",
+              "RelativeToolTip": "gitignore .gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-12T21:39:42.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "TaskController.java",
               "DocumentMoniker": "C:\\Users\\dennis.schock\\source\\repos\\Test3\\src\\main\\java\\com\\example\\taskmanager\\controller\\TaskController.java",
               "RelativeDocumentMoniker": "src\\main\\java\\com\\example\\taskmanager\\controller\\TaskController.java",
@@ -279,7 +313,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "tsconfig.json",
               "DocumentMoniker": "C:\\Users\\dennis.schock\\source\\repos\\Test3\\tsconfig.json",
               "RelativeDocumentMoniker": "tsconfig.json",
@@ -291,19 +325,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "styles.css",
-              "DocumentMoniker": "C:\\Users\\dennis.schock\\source\\repos\\Test3\\src\\styles.css",
-              "RelativeDocumentMoniker": "src\\styles.css",
-              "ToolTip": "C:\\Users\\dennis.schock\\source\\repos\\Test3\\src\\styles.css",
-              "RelativeToolTip": "src\\styles.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-11-10T22:04:07.547Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "pom.xml",
               "DocumentMoniker": "C:\\Users\\dennis.schock\\source\\repos\\Test3\\pom.xml",
               "RelativeDocumentMoniker": "pom.xml",
@@ -315,7 +337,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "application.properties",
               "DocumentMoniker": "C:\\Users\\dennis.schock\\source\\repos\\Test3\\properties src\\main\\resources\\application.properties",
               "RelativeDocumentMoniker": "properties src\\main\\resources\\application.properties",
@@ -327,7 +349,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "GlobalExceptionHandler.java",
               "DocumentMoniker": "C:\\Users\\dennis.schock\\source\\repos\\Test3\\src\\main\\java\\com\\example\\taskmanager\\controller\\GlobalExceptionHandler.java",
               "RelativeDocumentMoniker": "src\\main\\java\\com\\example\\taskmanager\\controller\\GlobalExceptionHandler.java",
@@ -339,7 +361,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "TaskRepository.java",
               "DocumentMoniker": "C:\\Users\\dennis.schock\\source\\repos\\Test3\\src\\main\\java\\com\\example\\taskmanager\\repository\\TaskRepository.java",
               "RelativeDocumentMoniker": "src\\main\\java\\com\\example\\taskmanager\\repository\\TaskRepository.java",
@@ -351,7 +373,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "TaskStatus.java",
               "DocumentMoniker": "C:\\Users\\dennis.schock\\source\\repos\\Test3\\src\\main\\java\\com\\example\\taskmanager\\model\\TaskStatus.java",
               "RelativeDocumentMoniker": "src\\main\\java\\com\\example\\taskmanager\\model\\TaskStatus.java",
@@ -363,7 +385,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "TaskManagerApplication.java",
               "DocumentMoniker": "C:\\Users\\dennis.schock\\source\\repos\\Test3\\src\\main\\java\\com\\example\\taskmanager\\TaskManagerApplication.java",
               "RelativeDocumentMoniker": "src\\main\\java\\com\\example\\taskmanager\\TaskManagerApplication.java",
@@ -375,7 +397,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "Task.java",
               "DocumentMoniker": "C:\\Users\\dennis.schock\\source\\repos\\Test3\\src\\main\\java\\com\\example\\taskmanager\\model\\Task.java",
               "RelativeDocumentMoniker": "src\\main\\java\\com\\example\\taskmanager\\model\\Task.java",
@@ -393,23 +415,15 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:4:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:4:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:5:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             }
           ]
         }

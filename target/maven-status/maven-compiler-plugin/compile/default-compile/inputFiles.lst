@@ -1,6 +1,13 @@
 C:\Users\dennis.schock\source\repos\Test3\src\main\java\com\example\taskmanager\repository\TaskRepository.java
+C:\Users\dennis.schock\source\repos\Test3\src\main\java\com\example\taskmanager\config\CorsConfig.java
+C:\Users\dennis.schock\source\repos\Test3\src\main\java\com\example\taskmanager\service\TaskService.java
+C:\Users\dennis.schock\source\repos\Test3\src\main\java\com\example\taskmanager\dto\TaskResponseDTO.java
+C:\Users\dennis.schock\source\repos\Test3\src\main\java\com\example\taskmanager\exception\ErrorResponse.java
+C:\Users\dennis.schock\source\repos\Test3\src\main\java\com\example\taskmanager\controller\GlobalExceptionHandler.java
+C:\Users\dennis.schock\source\repos\Test3\src\main\java\com\example\taskmanager\controller\TaskController.java
 C:\Users\dennis.schock\source\repos\Test3\src\main\java\com\example\taskmanager\model\TaskStatus.java
 C:\Users\dennis.schock\source\repos\Test3\src\main\java\com\example\taskmanager\TaskManagerApplication.java
-C:\Users\dennis.schock\source\repos\Test3\src\main\java\com\example\taskmanager\controller\GlobalExceptionHandler.java
+C:\Users\dennis.schock\source\repos\Test3\src\main\java\com\example\taskmanager\dto\TaskMapper.java
+C:\Users\dennis.schock\source\repos\Test3\src\main\java\com\example\taskmanager\dto\TaskDTO.java
 C:\Users\dennis.schock\source\repos\Test3\src\main\java\com\example\taskmanager\model\Task.java
-C:\Users\dennis.schock\source\repos\Test3\src\main\java\com\example\taskmanager\controller\TaskController.java
+C:\Users\dennis.schock\source\repos\Test3\src\main\java\com\example\taskmanager\exception\ResourceNotFoundException.java

@@ -14,39 +14,41 @@ public class CorsConfig implements WebMvcConfigurer {
 
   private static final Logger log = LoggerFactory.getLogger(CorsConfig.class);
 
-  @Value("${app.cors.allowed-origins:*}")
+  @Value("${app.cors.allowed-origins:}")
   private String allowedOrigins;
 
   private String[] originsArray;
 
   @PostConstruct
   public void init() {
-    originsArray = Arrays.stream(allowedOrigins.split(","))
-                         .map(String::trim)
-                         .filter(s -> !s.isEmpty())
-                         .toArray(String[]::new);
-
-    if (originsArray.length == 0) {
-      log.info("CORS configured with no origins. Using wildcard '*' for development.");
+    if (allowedOrigins == null || allowedOrigins.trim().isEmpty()) {
+      originsArray = new String[0];
+      log.warn("No CORS origins configured. Using permissive settings for development.");
     } else {
+      originsArray = Arrays.stream(allowedOrigins.split(","))
+                           .map(String::trim)
+                           .filter(s -> !s.isEmpty())
+                           .toArray(String[]::new);
       log.info("CORS allowed origins: {}", String.join(", ", originsArray));
     }
-  }
+  }         
 
   @Override
   public void addCorsMappings(CorsRegistry registry) {
+    CorsRegistration registration = registry.addMapping("/api/**")
+            .allowedMethods("GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS")
+            .allowedHeaders("*")
+            .maxAge(3600);
+
     if (originsArray == null || originsArray.length == 0) {
-      // For quick testing - allow all (NOT recommended for production)
-      registry.addMapping("/api/**")
-              .allowedOrigins("*")
-              .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS");
-      log.warn("Applied wildcard CORS for /api/** (development only).");
+      // Development mode: allow all origins WITHOUT credentials
+      registration.allowedOriginPatterns("*");
+      log.warn("Applied permissive CORS for /api/** (development only - no credentials)");
     } else {
-      registry.addMapping("/api/**")
-              .allowedOrigins(originsArray)
-              .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
-              .allowCredentials(true);
-      log.info("Applied CORS mapping for /api/**");
+      // Production mode: specific origins WITH credentials
+      registration.allowedOrigins(originsArray)
+                  .allowCredentials(true);
+      log.info("Applied CORS mapping for /api/** with credentials");
     }
   }
 }
